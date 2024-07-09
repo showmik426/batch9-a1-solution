@@ -5,3 +5,62 @@ body{
     font-family: "Merriweather", serif;
 
 }
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+
+}
+
+/* banner section style start here */
+
+.banner-container{
+    max-width: 1320px;
+    min-height: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: rgba(0,0,0,0.5);
+    background-image: url(./images/Banner\ Image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    border-radius: 10px;
+}
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 177px; */
+    height: 600px;
+}
+.banner-content p,h1{
+    color: white;
+
+}
+
+.banner-content p{
+    font-size: 32px;
+font-weight: 400;
+}
+
+.banner-content h1{
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 16px;
+}
+
+/* 65% section style starts here */
+
+.second-section-container{
+    width: 802px;
+    height: 806px;
+    margin: 0 auto;
+    margin-top: 92px;
+    border: 2px solid red;
+}
+
+
+/* 65% section style ends here */
